@@ -1,7 +1,10 @@
-const firstName = 'Jonas'
-const job = 'teacher'
-const birthYear = 1991
-const year = 2037
+const birthYear = 1998;
+let century;
 
-const jonas = `I'm ${firstName}, a ${year - birthYear} years old`
-console.log(jonas);
+if(birthYear <= 2000){
+    century = 20;
+}else{
+    century = 21;
+}
+
+console.log(century);
