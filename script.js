@@ -1,10 +1,7 @@
-const birthYear = 1998;
-let century;
+const money = 100;
 
-if(birthYear <= 2000){
-    century = 20;
+if(money){
+    console.log("Don't spend it all.");
 }else{
-    century = 21;
+    console.log("You should get a job.");    
 }
-
-console.log(century);
